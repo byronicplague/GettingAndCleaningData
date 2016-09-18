@@ -12,8 +12,8 @@ c) the zip file is unzipped
 The merge.dataset function:
 a) reads the x and y test and train datasets into separate variables
 b) reads in the test and train subject tables
-c) merges the x files together, the y files together, and the subject files together
-d) returns a list of three dataframes: x, y and subject
+c) merges the x files together, the y files together, and the subject files together, creating three merged datasets
+d) returns a list of three datasets: x, y and subject
 The user is kept informed of the current stage of the process throughout performance
 
 The extract.meanstd function:
